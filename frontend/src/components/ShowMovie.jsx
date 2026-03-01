@@ -28,7 +28,7 @@ const ShowMovie = () => {
     <div>
         <h1 className="text-center">Show Movie</h1>
         <div
-            className="container"
+            className="container h-100 d-flex justify-content-center align-items-center"
         >
             <div className="card">
                 <img className="card-img-top" src={blog.poster} alt="Title" />

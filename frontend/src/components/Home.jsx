@@ -18,19 +18,19 @@ const Home = () => {
 
   return (
     <div>
-        <h1 className="text-center">Home</h1>
+        <h1 className="text-center">Available Movies</h1>
         <div
             className="container"
         >
             <div
                 className="row justify-content-center align-items-center g-2"
             >
-                <div className="row ">
+                <div style={{gap:"20px"}} className="row ">
                     {
                         blog.map((item)=>(
-                            <div className="card " style={{width: "18rem"}}>
-                                <img src={item.poster} className="card-img-top w-150 h-150" alt="..."/>
-                                <div className="card-body text-center border-2">
+                            <div className="card  " style={{width: "18rem"}}>
+                                <img style={{height: "200px",width: "100%", objectFit: "cover"}} src={item.poster} className="card-img-top " alt="..."/>
+                                <div className="card-body text-center border-2 ">
                                     <h5 className="card-title
                                     ">{item.title}</h5>
                                     <p className="card-text">Rating: {item.rating}</p>

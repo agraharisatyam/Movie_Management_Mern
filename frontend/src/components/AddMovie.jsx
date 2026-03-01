@@ -30,7 +30,7 @@ const AddMovie = () => {
     <div>
         <h1 className="text-center">Add Movie</h1>
         <div
-            className="container col-6 "
+            className="container col-6 bg-info p-5 border-2"
         >
             <div className="card p-5">
                 <form >
